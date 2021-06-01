@@ -1,6 +1,7 @@
 asgiref==3.3.4
 astroid==2.5.7
 autopep8==1.5.7
+dateutils==0.6.12
 Django==3.2.3
 django-filter==2.4.0
 djangorestframework==3.12.4
@@ -9,11 +10,16 @@ isort==5.8.0
 lazy-object-proxy==1.6.0
 Markdown==3.3.4
 mccabe==0.6.1
+nsetools==1.0.11
 psycopg2==2.8.6
 pycodestyle==2.7.0
 PyJWT==2.1.0
 pylint==2.8.2
+pylint-django==2.4.4
+pylint-plugin-utils==0.6
+python-dateutil==2.8.1
 pytz==2021.1
+six==1.16.0
 sqlparse==0.4.1
 toml==0.10.2
 wrapt==1.12.1
