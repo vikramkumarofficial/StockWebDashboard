@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../../assets/kite-logo.svg';
+import logo from '../assets/kite-logo.svg';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import '../../styles/login-screen-styles.css';
+import '../styles/login-screen-styles.css';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 // import Typography from '@material-ui/core/Typography';
@@ -89,7 +89,9 @@ function LoginScreen() {
                 </div>
             </div >
             <div className="login-footer">
-                <Link href="/register" onClick={preventDefault}>
+                <Link href="/register"
+                    onClick={preventDefault}
+                >
                     Don't have an account? Signup now!
                 </Link>
             </div>

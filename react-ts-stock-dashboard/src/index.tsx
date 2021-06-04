@@ -1,11 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LoginScreen from './pages/LoginScreen/index';
+import LoginScreen from './pages/LoginScreen';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import DashboardScreen from './pages/DashboardScreen';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <LoginScreen />
+    <Router>
+      <Switch>
+        <Route exact path='/' component={LoginScreen} />
+        <Route exact path='/login' component={LoginScreen} />
+        <Route path='/dashboard' component={DashboardScreen} />
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
