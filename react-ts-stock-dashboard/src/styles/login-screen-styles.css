@@ -1,0 +1,58 @@
+
+.login-screen{
+    background-color:#121212;
+    padding : 5% 35%;
+    margin: 0 !important; 
+    /* padding: 0; */
+}
+
+body > #root > div {
+  height: 100vh;
+  margin: 0 !important;
+}
+
+.login-user-id-textfield{
+    margin-bottom: 30px;
+}
+
+.login-password-textfield{
+    margin-bottom: 30px;
+}
+
+
+.login-header{
+    background-color:#191919;
+    padding : 10% 10%;
+}
+
+.login-title{
+    color : white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-btn-container{
+    padding: 30% 10%;
+    width:100%;
+    background-color :#AF5234 !important;
+}
+
+.login-btn-text{
+    color : white;
+}
+
+.dashboard-logo{
+    height: 50px;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  /* width: 50%; */
+}
+
+.login-footer{
+    color : white;
+    padding-top: 40px;
+    text-align: center;
+}
